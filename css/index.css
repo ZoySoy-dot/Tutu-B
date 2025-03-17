@@ -1,3 +1,11 @@
+:root {
+  --base-color:#B2333F;
+  --highlight-color: #FFC380;
+  --font-Roboto-flex: 'Roboto Flex', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 header{
     padding: 0px;
     margin: 0px;
@@ -5,4 +13,33 @@ header{
 body{
     padding: 0px;
     margin: 0px;
+}
+.Banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: var(--base-color);
+  font-family: var(--font-Roboto-flex);
+}
+.Banner h1 {
+  font-size: 7rem;
+
+}
+.Banner h2 {
+  font-size: 2rem;
+  color: white !important;
+}
+.Banner h1, .Banner h2{
+  color: var(--highlight-color);
+  margin: 0;
+}
+#Banner_Arrow {
+  bottom: 0;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  background: none;
+  border: none;
 }
