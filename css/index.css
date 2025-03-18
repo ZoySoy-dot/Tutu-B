@@ -27,7 +27,7 @@
 }
 
 .Navigation-Bar_Nav-Links_Link {
-  height: 58.5%;
+  height: 73.5%;
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -35,9 +35,10 @@
   /*! justify-content: center; */
   /*! align-content: cneter; */
   text-decoration: none;
-  margin-top: 4%;
+  margin-top: 2%;
   color: black;
   font-size: large;
+  font-family: 'Roboto Flex', sans-serif;
 }
 header{
     padding: 0px;
@@ -55,7 +56,6 @@ body{
   text-align: center;
   height: 100vh;
   background: var(--base-color);
-  font-family: var(--font-Roboto-flex);
 }
 .Banner h1 {
   font-size: 7rem;
@@ -64,6 +64,7 @@ body{
 .Banner h2 {
   font-size: 2rem;
   color: white !important;
+  font-family: 'Roboto Flex',sans-serif;
 }
 .Banner h1, .Banner h2{
   color: var(--highlight-color);
@@ -101,6 +102,7 @@ body{
   font-family: var(--font-Roboto-flex);
   height: 100;
   text-align: center;
+  font-size: 2rem;
 }
 .Article_Section {
   background-color: var(--highlight-color);
@@ -112,7 +114,8 @@ body{
 }
 #content {
   background: var(--highlight-color);
-  padding-top: 3vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 #information {
