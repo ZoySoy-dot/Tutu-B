@@ -6,6 +6,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
+.Navigation-Bar_Logo {
+  margin-left: 14.5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Navigation-Bar_Nav-Links_Link:hover {
+  border-bottom: 5px solid black;
+  font-size: larger;
+}
+.Navigation-Bar_Nav-Links_Link:hover {
+}
+.Navigation-Bar_Nav-Links {
+  width: 19%;
+  display: flex;
+  margin-right: auto;
+  margin-left: 20px;
+  height: 100%;
+}
+
+.Navigation-Bar_Nav-Links_Link {
+  height: 58.5%;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  /*! display: flex; */
+  /*! justify-content: center; */
+  /*! align-content: cneter; */
+  text-decoration: none;
+  margin-top: 4%;
+  color: black;
+  font-size: large;
+}
 header{
     padding: 0px;
     margin: 0px;
@@ -13,6 +46,7 @@ header{
 body{
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;  
 }
 .Banner {
   display: flex;
