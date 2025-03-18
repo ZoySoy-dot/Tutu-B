@@ -27,7 +27,7 @@
 }
 
 .Navigation-Bar_Nav-Links_Link {
-  height: 58.5%;
+  height: 73.5%;
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -35,7 +35,7 @@
   /*! justify-content: center; */
   /*! align-content: cneter; */
   text-decoration: none;
-  margin-top: 4%;
+  margin-top: 2%;
   color: black;
   font-size: large;
 }
