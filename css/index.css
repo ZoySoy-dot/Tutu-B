@@ -123,3 +123,46 @@ body{
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+
+.Footer_Nav-Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Footer_Nav-Links_Link {
+  color: black;
+  text-align: center;
+}
+.Footer_Social-Media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Footer_Social-Media_Link {
+  color: black;
+  text-align: center;
+}
+
+.Footer_Container {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-content: center;
+  border-top: 1px solid black;
+}
+.Footer_Logo_Text {
+  font-size: 2rem;
+  /*! height: 100%; */
+  display: inline-block;
+  text-align: center;
+  align-self: center;
+}
+.Footer_Container {
+}
+.Footer_Container {
+}
+.Footer_Logo {
+  display: flex;
+  align-content: center;
+}
