@@ -1,0 +1,12 @@
+.Header_Banner h1 {
+    text-align: center;
+    font-size: 4rem; /* Adjust size as needed */
+    font-weight: 800; /* Makes it bold */
+    letter-spacing: 2px; /* Adds spacing between letters */
+}
+main div h1 {
+    font-size: 2re ; /* Makes it bigger */
+    font-weight: 700; /* Bold for emphasis */
+    margin-bottom: 15px; /* Adds spacing below */
+}
+
