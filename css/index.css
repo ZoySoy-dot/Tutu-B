@@ -15,7 +15,6 @@
   font-weight: bold;
   font-family: "Magazine";
   color: black;
-  z-index: 2;
 }
 
 .Navigation-Bar_Nav-Links_Link:hover {
@@ -25,7 +24,7 @@
 .Navigation-Bar_Nav-Links_Link:hover {
 }
 .Navigation-Bar_Nav-Links {
-  width: 23.6rem;
+  width: 17.6rem;
   display: flex;
   /*! margin-right: auto; */
   margin-left: 20px;
@@ -36,7 +35,7 @@
 
 .Navigation-Bar_Nav-Links_Link {
   height: 100%;
-  width: 251.4%;
+  width: 246.4%;
 
   display: flex;
   align-items: center;
@@ -130,7 +129,7 @@ body{
   /*! font-family: var(--font-Roboto-flex); */
   height: 100;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3.6rem;
 }
 .Article_Section {
   /*! background-color: var(--highlight-color); */
@@ -242,6 +241,7 @@ body{
 .Information_Picker_Button_Active {
   font-weight: bolder;
   border-bottom: 2px solid black;
+  font-size: 2.5rem;
 }
 .Information_Picker_Button:hover {
   font-weight: bolder;
@@ -266,5 +266,12 @@ body{
   }
   .Information_Picker_Button{
     font-size: 2rem;
+  }
+  .Article_Section_Paragraph{
+    font-size: 1.2rem;
+  }
+  #header-navigation-button{
+    left: 45vw;
+    bottom: 12vh;
   }
 }
