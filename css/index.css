@@ -156,6 +156,7 @@ body{
   padding-top: 10vh;
   padding-bottom: 10vh;
   border-bottom: 5px solid black;
+  min-height: 100vh;
 }
 .Banner_Header {
   background-size: 597.4px;
