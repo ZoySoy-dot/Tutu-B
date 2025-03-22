@@ -20,4 +20,7 @@ body{
     padding: 0;
     width: 100vw;
     height: 4.5vh;
+    position: fixed;
+    z-index: 1;
+    background-color:white;
 }
