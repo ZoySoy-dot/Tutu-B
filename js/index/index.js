@@ -21,3 +21,24 @@ scrollBtn.addEventListener("click", function () {
         scrollBtn.style.transform = "rotate(0deg)";
     }
 });
+
+const informationButton = document.querySelectorAll(".Information_Picker_Button");
+
+informationButton.forEach(element => {
+    element.addEventListener("click", function () {
+        document.querySelector(".Information_Picker_Button_Active").classList.remove("Information_Picker_Button_Active");
+        document.querySelector(".Article_Section_Active").classList.remove("Article_Section_Active");
+        if(element.id === "us"){
+            document.querySelector(".Article_Section.About-us").classList.add("Article_Section_Active");
+        }else if(element.id === "mission"){
+            document.querySelector(".Article_Section.Mission").classList.add("Article_Section_Active");
+        }
+        else if(element.id === "vision"){
+            document.querySelector(".Article_Section.Vision").classList.add("Article_Section_Active");
+        }
+        else{
+            console.log("Error: No such element");
+        }
+        element.classList.add("Information_Picker_Button_Active");
+    });
+});
