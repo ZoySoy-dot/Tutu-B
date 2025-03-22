@@ -15,6 +15,7 @@
   font-weight: bold;
   font-family: "Magazine";
   color: black;
+  z-index: 2;
 }
 
 .Navigation-Bar_Nav-Links_Link:hover {
@@ -24,7 +25,7 @@
 .Navigation-Bar_Nav-Links_Link:hover {
 }
 .Navigation-Bar_Nav-Links {
-  width: 17.6rem;
+  width: 23.6rem;
   display: flex;
   /*! margin-right: auto; */
   margin-left: 20px;
@@ -35,7 +36,7 @@
 
 .Navigation-Bar_Nav-Links_Link {
   height: 100%;
-  width: 246.4%;
+  width: 251.4%;
 
   display: flex;
   align-items: center;
