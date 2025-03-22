@@ -24,21 +24,29 @@
   margin-right: auto;
   margin-left: 20px;
   height: 100%;
+  justify-content: center;
+  align-content: center;
 }
 
 .Navigation-Bar_Nav-Links_Link {
-  height: 73.5%;
+  height: 100%;
   width: 100%;
-  display: inline-block;
+  /*! display: inline-block; */
   text-align: center;
   /*! display: flex; */
   /*! justify-content: center; */
   /*! align-content: cneter; */
   text-decoration: none;
-  margin-top: 2%;
+  /*! margin-top: 2%; */
   color: black;
   font-size: large;
   font-family: 'Roboto Flex', sans-serif;
+  /*! padding: 4.5%; */
+  /*! font-size: 1.5rem; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /*! height: min-content; */
 }
 header{
     padding: 0px;
@@ -55,7 +63,9 @@ body{
   justify-content: center;
   text-align: center;
   height: 100vh;
-  background: var(--base-color);
+  background-color: var(--base-color);
+
+
 }
 .Banner h1 {
   font-size: 7rem;
@@ -114,14 +124,20 @@ body{
 }
 #content {
   background: var(--highlight-color);
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  /*! padding: 10vh; */
+  /*! padding-bottom: 1ovh; */
+  /*! padding-left: 0; */
+  /*! padding-right: 0; */
+  /*! padding-top: 10vh; */
+  /*! padding-bottom: 10vh; */
 }
 
 #information {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .Banner_Header {
   background: url("/assets/img/textbackgrounds/text-background.webp") no-repeat center;
@@ -176,4 +192,20 @@ body{
 .Footer_Logo {
   display: flex;
   align-content: center;
+}
+
+.Publication_Materials_Header {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font-Roboto-flex);
+}
+
+.Publication_Materials_Container {
+  display: flex;
+  justify-content: space-evenly;
+  background: ;
+}
+.Publication_Materials {
+  background-color: var(--base-color);
+  padding: 10vh;
 }
