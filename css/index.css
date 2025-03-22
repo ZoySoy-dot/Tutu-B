@@ -70,7 +70,7 @@ body{
 
 }
 .Banner h1 {
-  font-size: 7rem;
+  font-size: 6em;
   font-family: 'Magazine', sans-serif;
 
 }
@@ -85,7 +85,7 @@ body{
 }
 #header-navigation-button {
   bottom: 0;
-  padding: 10px 0;
+  padding: 10px 0px;
   position: absolute;
   width: 100%;
   background: none;
@@ -207,6 +207,9 @@ body{
   display: flex;
   justify-content: space-evenly;
   background: ;
+}
+.Publication_Materials_Container video{
+  height: 50vh
 }
 .Publication_Materials {
   background-color: var(--base-color);
