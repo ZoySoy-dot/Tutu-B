@@ -155,6 +155,7 @@ body{
   flex-direction: row;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  border-bottom: 5px solid black;
 }
 .Banner_Header {
   background-size: 597.4px;
@@ -226,7 +227,7 @@ body{
 }
 .Publication_Materials {
   /*! background-color: var(--base-color); */
-  padding: 10vh;
+  padding: 4.8vh;
 }
 .Article_Section_Active{
   display: block;
@@ -272,6 +273,6 @@ body{
   }
   #header-navigation-button{
     left: 45vw;
-    bottom: 12vh;
+    bottom: 6.8vh;
   }
 }
