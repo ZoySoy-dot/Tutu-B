@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border-bottom 0.1s ease;
 }
 
 .Navigation-Bar_Nav-Links_Link a{
