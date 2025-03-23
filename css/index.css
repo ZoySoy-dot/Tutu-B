@@ -272,4 +272,10 @@ body{
     left: 45vw;
     bottom: 6.8vh;
   }
+  .Banner h1{
+    font-size: 8rem;
+  }
+  .Banner h2{
+    font-size: 1rem;
+  }
 }
