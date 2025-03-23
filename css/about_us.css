@@ -5,8 +5,42 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-color: white;
+  background-color: black;
   font-size: 3rem;
   font-family: 'DM Serif Text',serif;
   font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+section {
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+}
+section h1{
+
+}
+
+.Members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80vw;
+  paddin-left: 10vw;
+  padding-left: 10vw;
+}
+.Member {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  align-items: center;
+  padding: 1vw;
+}
+.Member img{
+  width:128px;
+  height: 128px
 }
