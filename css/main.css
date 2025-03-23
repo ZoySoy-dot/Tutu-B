@@ -24,3 +24,68 @@ body{
     z-index: 1;
     background-color:white;
 }
+.Hamburger-Menu{
+    display: none;
+}
+.Hamburger-Menu-Button{
+    display: none;
+}
+.hidden{
+    display: none !important;
+}
+
+@media (max-width: 768px){
+    .Hamburger-Menu{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        background-color: white;
+        height: 186.9%;
+        width: 100.5vw;
+        z-index: 2;
+    }
+    .Hamburger-Menu_Line{
+        width: 100%;
+        background-color: white;
+        z-index: 3;
+        /*! position: fixed; */
+    }
+    .Navigation-Bar_Nav-Links_Link{
+        display: none !important;
+    }
+    .Hamburger-Menu-Button{
+        display: block;
+        border: none;
+        background: none;
+    }
+    
+    .Hamburger-Menu_Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px;
+    padding: 0px;
+    }
+
+.Hamburger-Menu_Button-Close {
+  background: none;
+  border: none;
+  margin: 1vw;
+}
+.Hamburger-Menu_Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  top: 10vh;
+  width: 100vw;
+}
+.Hamburger-Menu_Links a{
+  height: 30vh;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem
+}
+}
