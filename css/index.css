@@ -96,6 +96,7 @@ body{
   left: 93.8vw;
   bottom: 4vh;
   border: 2px solid black;
+  transition: transform 0.3s ease;
 }
 #header-navigation-button:hover {
   background: #81252e;
