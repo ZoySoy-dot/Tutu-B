@@ -151,8 +151,8 @@ body{
 #information {
   display: flex;
   flex-direction: row;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   /*! border-bottom: 5px solid black; */
   min-height: 100vh;
   font-family: serif;
@@ -238,6 +238,8 @@ body{
   border: none;
   font-size: 2rem;
   font-family: serif;
+  transition: font-size 0.3s ease, font-weight 0.3s ease;
+  height: 18.6%;
 }
 .Information_Picker_Button_Active {
   font-weight: bolder;
