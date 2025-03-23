@@ -1,0 +1,12 @@
+
+.Header_Banner {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: white;
+  font-size: 3rem;
+  font-family: 'DM Serif Text',serif;
+  font-style: italic;
+}

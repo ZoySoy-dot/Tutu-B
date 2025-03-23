@@ -54,7 +54,7 @@ body{
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;  
-    background-color: #D0CFEC;
+    background-color: #FFF;
 }
 .Banner {
   display: flex;
@@ -93,6 +93,7 @@ body{
   position: fixed;
   left: 93.8vw;
   bottom: 2vh;
+  border: 2px solid black;
 }
 #header-navigation-button:hover {
   background: #81252e;
@@ -151,7 +152,7 @@ body{
   flex-direction: row;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  border-bottom: 5px solid black;
+  /*! border-bottom: 5px solid black; */
   min-height: 100vh;
 }
 .Banner_Header {
@@ -249,8 +250,17 @@ body{
 }
 
 
+#Publication-Link {
+  border-left: 1px solid;
+  padding-left: 1vw;
+  font-weight: bolder;
+  padding-right: 1vw;
+}
 
 
+#Publication-Link a {
+  font-weight: bold;
+}
 @media (max-width:600px){
   #information{
     display: flex;
@@ -277,5 +287,8 @@ body{
   }
   .Banner h2{
     font-size: 1rem;
+  }
+  .Article_Section_Paragraph{
+    text-align: left;
   }
 }
