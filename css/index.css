@@ -3,11 +3,6 @@
   --highlight-color: #FFC380;
   --font-Roboto-flex: 'Roboto Flex', sans-serif;
 }
-@font-face {
-  font-family: "Magazine";
-  src: url("/assets/fonts/Header.ttf") format("truetype");
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 .Navigation-Bar_Logo {
   margin-left: 14.5px;
@@ -75,13 +70,14 @@ body{
 }
 .Banner h1 {
   font-size: 6em;
-  font-family: 'Magazine', sans-serif;
+  font-family: 'DM Serif Text',serif;
+  font-style: italic;
 
 }
 .Banner h2 {
   font-size: 2rem;
   color: white !important;
-  font-family: "Magazine", sans-serif;
+  font-family: 'DM Serif Text',serif;
 }
 .Banner h1, .Banner h2{
   color: var(--highlight-color);

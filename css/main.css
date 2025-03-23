@@ -66,6 +66,7 @@ body{
     margin: 0px;
     padding: 0px;
     }
+    
 
 .Hamburger-Menu_Button-Close {
   background: none;
@@ -88,4 +89,8 @@ body{
   text-decoration: none;
   font-size: 2rem
 }
+.Navigation-Bar_Nav-Links{
+    display: none !important;
+}
+
 }
