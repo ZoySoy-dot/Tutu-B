@@ -17,10 +17,12 @@
   border-bottom: 5px solid black;
   font-size: 2rem;
 }
-.Navigation-Bar_Nav-Links_Link:hover {
+.Navigation-Bar_Nav-Links_Link-active {
+  border-bottom: 5px solid black;
+  font-size: 2rem;
 }
 .Navigation-Bar_Nav-Links {
-  width: 17.6rem;
+  width: 29.8rem;
   display: flex;
   /*! margin-right: auto; */
   margin-left: 20px;
@@ -37,6 +39,9 @@
   align-items: center;
   justify-content: center;
   transition: border-bottom 0.1s ease;
+  /*! margin-right: 0.8vw; */
+  padding-right: 0.4vw;
+  padding-left: 0.4vw;
 }
 
 .Navigation-Bar_Nav-Links_Link a{
@@ -261,6 +266,7 @@ body{
   padding-left: 1vw;
   font-weight: bolder;
   padding-right: 1vw;
+  margin: 0;
 }
 
 
