@@ -11,7 +11,7 @@ scrollBtn.addEventListener("click", function () {
     );
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: "smooth" });
-      if (nextSection.id === "information") {
+      if (nextSection.id === "publishes") {
         goingDown = false;
         scrollBtn.style.transform = "rotate(180deg)";
       }
