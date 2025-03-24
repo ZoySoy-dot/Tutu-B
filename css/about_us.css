@@ -1,6 +1,18 @@
 
+.Information p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.Information {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+}
+.Information h1 {
+  font-size: 3rem;
+}
 .Header_Banner {
-  height: 30vh;
+  height: 37vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +29,8 @@ section {
   height: min-content;
   display: flex;
   flex-direction: column;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid black;
 }
 section h1{
 

@@ -125,6 +125,9 @@ body{
   /*! font-family: var(--font-Roboto-flex); */
   text-align: justify;
   font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 11.2vh;
+  font-family: sans-serif;
 }
 .Article_Section_Header {
   /*! margin-top: 1vh; */
@@ -133,8 +136,9 @@ body{
   font-weight: bolder;
   /*! font-family: var(--font-Roboto-flex); */
   height: 100;
-  text-align: center;
+  text-align: left;
   font-size: 3.6rem;
+  margin-left: 4.4vw;
 }
 .Article_Section {
   /*! background-color: var(--highlight-color); */
@@ -158,8 +162,6 @@ body{
 #information {
   display: flex;
   flex-direction: row;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
   /*! border-bottom: 5px solid black; */
   min-height: 100vh;
   font-family: serif;
@@ -269,7 +271,23 @@ body{
   margin: 0;
 }
 
-
+.Publication-Container {
+  margin: 5vw;
+}
+.Publication {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+  border-bottom: 1px solid black;
+  margin-bottom: 10vh;
+}
+.Publication_Title {
+  font-size: 2rem;
+}
+.section{
+  padding-top: 3vh;
+  padding-bottom:3vh;
+}
 #Publication-Link a {
   font-weight: bold;
 }
