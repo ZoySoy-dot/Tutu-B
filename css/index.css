@@ -4,6 +4,10 @@
   --font-Roboto-flex: 'Roboto Flex', sans-serif;
 }
 
+.Banner.section {
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+}
 .Navigation-Bar_Logo {
   margin-left: 14.5px;
   font-size: 1.5rem;
@@ -289,6 +293,7 @@ body{
   display: flex;
   /*! flex-direction: row-reverse; */
 }
+
 .Publication {
   display: flex;
   flex-direction: column;
@@ -302,7 +307,7 @@ body{
   font-size: 2rem;
 }
 .section{
-  padding-top: 20vh;
+  padding-top: 10vh;
   padding-bottom:20vh;
 }
 #Publication-Link a {
@@ -325,13 +330,24 @@ body{
     flex-direction: column-reverse;
     
   }
+  #publishes{
+    display: flex;
+    flex-direction: column
+  }
+  .Publication-Container{
+    width: 100vw
+  }
   .Information_Picker{
     border-bottom: 2px solid black;
-    width: 100%;
+    width: 99%;
     flex-direction: row;
+    height: 5vh;
+    padding: 0;
+    border-left: 0px;
   }
   .Information_Picker_Button{
     font-size: 2rem;
+    width: 100%;
   }
   .Article_Section_Paragraph{
     font-size: 1.2rem;
