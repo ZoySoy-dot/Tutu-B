@@ -50,7 +50,7 @@ body{
         justify-content: center;
         position: fixed;
         background-color: white;
-        height: 186.9%;
+        height: 200.4%;
         width: 100.5vw;
         z-index: 2;
     }
@@ -102,3 +102,9 @@ body{
     display: none !important;
 }
 
+a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
