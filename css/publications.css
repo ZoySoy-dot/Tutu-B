@@ -5,7 +5,6 @@
   align-items: center;
   width: 100vw;
   background-color: black;
-  font-size: 2em;
   font-family: 'DM Serif Text',serif;
   font-style: italic;
   color: white;
@@ -14,8 +13,9 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-position: 200px;
-  background-image: url("/assets/img/textbackgrounds/Header-Background-3.jpg")
+  background-image: url("/assets/img/textbackgrounds/Header-Background-3.jpg");
   
+  font-size: clamp(1.8rem, 5vw, 3rem);
 }
 html {
   margin: 0;
@@ -54,7 +54,7 @@ h2 {
 .Publications-Section_Card_Text-Number {
 }
 .Publications-Section_Card_Text-Title {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
