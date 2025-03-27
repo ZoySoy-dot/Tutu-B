@@ -76,7 +76,7 @@ body{
   text-align: center;
   height: 100vh;
   background-color:#202020;
-  background-image: url(/assets/img/textbackgrounds/Header-Background.svg);
+  background-image: url(/assets/img/textbackgrounds/Header-Background.png);
   background-size: cover;
   background-blend-mode: multiply; /* try overlay, screen, etc. */
 
