@@ -1,0 +1,70 @@
+.Header_Banner {
+  height: 37vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  font-size: 3rem;
+  font-family: 'DM Serif Text',serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  background-color: #808080;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: 200px;
+  background-image: url("/assets/img/textbackgrounds/Header-Background-3.jpg")
+  
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.Header_Banner h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.Publications-Section_Card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 2vh 3vw;
+}
+#Publications-Section {
+  padding: 10vh 10vw;
+}
+h2 {
+  /*! font-size: 4rem; */
+  /*! text-align: center; */
+}
+.Publications-Section_Card_Text h2{
+  /*! font-size: 4rem; */
+  /*! text-align: center */
+}
+
+.Publications-Section_Card_Text-Description {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.Publications-Section_Card_Text-Number {
+}
+.Publications-Section_Card_Text-Title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Publications-Section_Card_Magazine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*! width: 113vw; */
+}
+.Publications-Section_Card_Magazine_Embed {
+
+  width: 100%;
+}

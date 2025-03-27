@@ -35,8 +35,8 @@ body{
 }
 
 .Navigation-Bar_Logo_Image {
-  height: 32px;
-  width: 32px;
+  height: 3rem;
+  width: 3rem;
 }
 .Navigation-Bar_Logo_Text {
   margin-left: 10px;
@@ -71,10 +71,11 @@ body{
     
     .Hamburger-Menu_Buttons {
     display: flex;
-    flex-direction: row-reverse;
+    /*! flex-direction: row-reverse; */
     margin: 0px;
     padding: 0px;
     border-bottom: 1px solid;
+    justify-content: space-between;
     }
     
 
@@ -91,11 +92,11 @@ body{
   align-items: center;
   position: fixed;
   text-align: center;
-  top: 10vh;
+  top: 5vh;
   width: 100vw;
 }
 .Hamburger-Menu_Links a{
-  height: 30vh;
+  height: 23vh;
   color: black;
   text-decoration: none;
   font-size: 2rem

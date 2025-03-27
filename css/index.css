@@ -21,7 +21,8 @@
   color: black;
   font-family: "DM Serif Text", serif;
   display: flex;
-  justify-content: initial;
+  justify-content: center;
+  align-items: center;
 }
 
 .Navigation-Bar_Nav-Links_Link:hover {
@@ -230,7 +231,9 @@ body{
 }
 .Footer_Logo {
   display: flex;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .Publication_Materials_Header {
