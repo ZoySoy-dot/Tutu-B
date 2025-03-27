@@ -74,6 +74,7 @@ body{
     flex-direction: row-reverse;
     margin: 0px;
     padding: 0px;
+    border-bottom: 1px solid;
     }
     
 
@@ -81,6 +82,7 @@ body{
   background: none;
   border: none;
   margin: 1vw;
+  padding: 0;
 }
 .Hamburger-Menu_Links {
   display: flex;

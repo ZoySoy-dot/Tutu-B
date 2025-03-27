@@ -4,6 +4,11 @@
   --font-Roboto-flex: 'Roboto Flex', sans-serif;
 }
 
+.Issues-Title {
+  text-align: center;
+  font-size: 3.6rem;
+  margin: 10vh;
+}
 .Banner.section {
   padding-top: 0vh;
   padding-bottom: 0vh;
@@ -132,7 +137,7 @@ body{
   font-family: sans-serif;
   margin: 0px 3vw;
   overflow-y: scroll;
-  max-height: 76.5%;
+  max-height: 67%;
 }
 .Article_Section_Header {
   /*! margin-top: 1vh; */
@@ -143,7 +148,8 @@ body{
   height: 100;
   text-align: left;
   font-size: 3.6rem;
-  margin-left: 3vw;
+  /*! margin-left: 3vw; */
+  margin: 10vh 2vw;
 }
 .Article_Section {
   /*! background-color: var(--highlight-color); */
@@ -281,11 +287,12 @@ body{
   margin: 0;
 }
 
-.Publication-Container {
+.Issues-Container {
   border-left: 1px solid black;
   width: 19.4vw;
   padding: 0px 2vw;
   display: flex;
+  height: 84.5%;
 }
 
 #publishes {
@@ -293,7 +300,7 @@ body{
   /*! flex-direction: row-reverse; */
 }
 
-.Publication {
+.Issue {
   display: flex;
   flex-direction: column;
   /*! padding-bottom: 10vh; */
@@ -302,7 +309,7 @@ body{
   height: min-content;
   width: max-content;
 }
-.Publication_Title {
+.Issue_Title {
   font-size: 2rem;
 }
 .section{
@@ -313,17 +320,21 @@ body{
   font-weight: bold;
 }
 
-.Publication_Title-Container {
+.Issue_Title-Container {
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: space-between;
 }
-.Publication_Link {
+.Issue_Link {
   height: min-content;
   margin-top: 1vh;
 }
+.Article_Section_Header{
+  text-align: center !important;
+}
 @media (max-width:600px){
+ 
   #information{
     display: flex;
     flex-direction: column;
@@ -334,7 +345,7 @@ body{
     display: flex;
     flex-direction: column
   }
-  .Publication-Container{
+  .Issue-Container{
     width: 100vw
   }
   .Information_Picker{
