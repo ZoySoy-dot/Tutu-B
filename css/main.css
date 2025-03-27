@@ -34,6 +34,15 @@ body{
     display: none !important;
 }
 
+.Navigation-Bar_Logo_Image {
+  height: 32px;
+  width: 32px;
+}
+.Navigation-Bar_Logo_Text {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 768px){
     .Hamburger-Menu{
         display: none;
@@ -93,4 +102,3 @@ body{
     display: none !important;
 }
 
-}

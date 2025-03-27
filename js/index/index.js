@@ -40,14 +40,23 @@ informationButton.forEach((element) => {
       document
         .querySelector(".Article_Section.About-us")
         .classList.add("Article_Section_Active");
+      document.querySelector(".Article_Section.About-us").scrollIntoView({
+        behavior: "smooth",
+      });
     } else if (element.id === "mission") {
       document
         .querySelector(".Article_Section.Mission")
         .classList.add("Article_Section_Active");
+      document.querySelector(".Article_Section.Mission").scrollIntoView({
+        behavior: "smooth",});
     } else if (element.id === "vision") {
       document
         .querySelector(".Article_Section.Vision")
         .classList.add("Article_Section_Active");
+      
+      document.querySelector(".Article_Section.Vision").scrollIntoView({
+        behavior: "smooth",
+      });
     } else {
       console.log("Error: No such element");
     }
